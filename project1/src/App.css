@@ -1,0 +1,25 @@
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+ 
+  margin:30px;
+  list-style:  none;
+  font-size: 1.2rem;
+}
+ .btn button{
+  background-color: red;
+  color:white;
+  padding:10px 18px;
+  border: none;
+  border-radius: 10px;
+}
+.btn{
+  margin:30px;
+}
