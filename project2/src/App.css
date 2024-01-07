@@ -1,0 +1,21 @@
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+li{
+  list-style: none;
+  color:rgb(61, 59, 59);
+  margin:30px;
+}
+ul li a{
+  text-decoration: none;
+  color:rgb(61, 59, 59);
+  font-weight: 600; 
+}
