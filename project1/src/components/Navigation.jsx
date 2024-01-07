@@ -2,20 +2,20 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <div>
-    <nav>
+    <nav className="container">
+      <div className="logo">
+        <h2>NIke</h2>
+      </div>
       <ul>
-        <li href="#">Home</li>
-        <li  href="#">About</li>
-        <li  href="#">Contact</li>
-
+        <li href="#">Menu</li>
+        <li href="#">Location</li>
+        <li href="#">About</li>
+        <li href="#">Contact</li>
       </ul>
-      <div className='btn'> <button>Login</button></div>
-     
-    </nav>
 
-   </div>
-  )
+      <button className="login-btn">login</button>
+    </nav>
+  );
 }
 
 export default Navigation

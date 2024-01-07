@@ -1,25 +1,81 @@
-nav{
-  display:flex;
-  justify-content: space-between;
+* {
+  margin: 0;
 }
-ul{
-  display:flex;
-  justify-content: center;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
   align-items: center;
 }
-ul li{
- 
-  margin:30px;
-  list-style:  none;
-  font-size: 1.2rem;
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
 }
- .btn button{
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+.hero p {
+  font-weight: 600;
+  color:rgb(76, 74, 74);
+  max-width: 400px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+.hero-btn button {
+  font-size: 24px;
+}
+.secondary-btn {
+  background: transparent;
+  color: rgb(74, 73, 73);
+
+  border:1px solid rgb(120, 116, 116);
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+.login-btn{
   background-color: red;
-  color:white;
-  padding:10px 18px;
-  border: none;
-  border-radius: 10px;
-}
-.btn{
-  margin:30px;
+  border-radius: 15px;
+  padding:7px 20px;
 }
