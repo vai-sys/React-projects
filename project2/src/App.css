@@ -19,3 +19,83 @@ ul li a{
   color:rgb(61, 59, 59);
   font-weight: 600; 
 }
+
+.Heading{
+  margin:10px 70px;
+}
+.Heading h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.container{
+  display:flex;
+  max-width:1000px;
+  margin:0 auto;
+  align-items: center;
+}
+.secondary{
+  padding:7px 10px;
+  background-color: black;
+  color :white;
+  min-width: 240px;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  gap:8px;
+  justify-content: center;
+}
+.top_btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:32px;
+}
+
+.primary{
+  padding:7px 10px;
+  background-color: transparent;
+  color :rgb(0, 0, 0);
+  min-width: 240px;
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+  gap:8px;
+  justify-content: center;
+  border:1px solid black;
+}
+.contact_form{
+  display:flex;
+  flex-direction: column;
+  gap:24px;
+}
+.form_control{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  position:relative;
+}
+.form_control input{
+  height:49px;
+  padding:0px 8px;
+}
+.form_control label {
+position:absolute;
+top:-12px;
+left:10px;
+padding:0 10px;
+background-color: white;
+font-size: 14px;
+}
+.contact_form form{
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+}
+
+
+
+.main_container{
+  display:flex;
+  height:calc(100vh-72px);
+  flex-direction: column;
+}
